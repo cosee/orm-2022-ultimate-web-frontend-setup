@@ -20,18 +20,19 @@ Nils has been working as professional web-developer since 2007 and is full-stack
 engineer at cosee since 2019. He has a passion for automated tests, code quality
 and clean code.
 
+# Contents
 
+* TypeScript
+* React / Vue
+* vite (statt webpack)
+* vitest (statt jest)
+* react-testing-library
+* cypress
+* eslint
+* prettier
+* i18next
+* husky / lint-staged
+* dependency-cruiser
+* renovate-bot
+* code-generators für OpenAPI (oazapfts, axios-client-openapi)
 
-TypeScript
-React / Vue
-vite (statt webpack)
-vitest (statt jest)
-react-testing-library
-cypress
-eslint
-prettier
-i18next
-husky / lint-staged
-dependency-cruiser
-renovate-bot
-code-generators für OpenAPI (oazapfts, axios-client-openapi)
