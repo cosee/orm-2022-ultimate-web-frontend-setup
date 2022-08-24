@@ -9,7 +9,7 @@ The ultimate web-frontend setup
 In the last twenty years web-frontends have grown from simple server-generated HTML
 pages to full-blown applications that run a lot of code in the browser.
 Managing this complexity is a challenge, but luckily a lot of tools have evolved over
-the years. Tools the help you build and optimize your web-app. Tools that help us maintain the quality of our code and reduce the number of mistakes we make.
+the years. Tools that help you build and optimize your web-app. Tools that help us maintain the quality of our code and reduce the number of mistakes we make.
 
 In this talk, Nils will present the tools that he would not want to miss in any frontend project. 
 He will explain, what problems they solve and how we can use them.
