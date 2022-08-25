@@ -14,6 +14,8 @@ the years. Tools that help you build and optimize your web-app. Tools that help 
 In this talk, Nils will present the tools that he would not want to miss in any frontend project. 
 He will explain, what problems they solve and how we can use them.
 
+TODO: Mention some of the tools as teaser
+
 ## Some information about the author and presenter:
 
 Nils has been working as professional web-developer since 2007 and is full-stack
