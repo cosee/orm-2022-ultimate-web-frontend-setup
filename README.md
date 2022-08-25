@@ -8,19 +8,20 @@ The ultimate web-frontend setup
 
 In the last twenty years web-frontends have grown from simple server-generated HTML
 pages to full-blown applications that run a lot of code in the browser.
-Managing this complexity is a challenge, but luckily a lot of tools have evolved over
-the years. Tools that help you build and optimize your web-app. Tools that help us maintain the quality of our code and reduce the number of mistakes we make.
+Managing this complexity is a challenge, but luckily a lot of tools like "eslint" have evolved over
+the years. Those tools help us build and optimize our web-app, maintain the quality
+of our code, and reduce the number of mistakes we make.
 
-In this talk, Nils will present the tools that he would not want to miss in any frontend project. 
-He will explain, what problems they solve and how we can use them.
+In this talk, Nils will present you his favorite field-tested tools that 
+should be part of every new frontend setup.
 
-TODO: Mention some of the tools as teaser
 
 ## Some information about the author and presenter:
 
-Nils has been working as professional web-developer since 2007 and is full-stack
-engineer at cosee since 2019. He has a passion for automated tests, code quality
-and clean code.
+With over 15 years of professional experience as a web developer, 
+Nils has a passion for automated tests and clean code. 
+He has been working as a full stack engineer at cosee since 2019.
+
 
 # Contents
 
