@@ -41,8 +41,9 @@ He has been working as a full stack engineer at cosee since 2019.
   * `yarn add -D @testing-library/react @testing-library/dom @testing-library/jest-dom @testing-library/user-event`
   * ReferenceError: document is not defined -> vite-config jsdom
   * setupTest.ts + vite.config.ts
-* eslint
-* prettier
+* eslint + prettier
+  * `yarn add -D eslint prettier eslint-config-prettier eslint-plugin-testing-library @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react-hooks`
+  * yarn eslint --init
 * cypress
 * i18next
 * husky / lint-staged
