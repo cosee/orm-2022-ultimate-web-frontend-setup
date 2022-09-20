@@ -25,14 +25,25 @@ He has been working as a full stack engineer at cosee since 2019.
 
 # Contents
 
+
+
 * TypeScript
 * React / Vue
 * vite (statt webpack)
 * vitest (statt jest)
+  * `yarn add -D vitest`
+  * `vite-env.ts` ->  `/// <reference types="vitest/globals" />`
+  * adjust package.json -> add scripts
+  * adjust tsconfig.json 
+  * adjust vite.config.ts
+  * maybe do `yarn upgrade` to get latest dependencies
 * react-testing-library
-* cypress
+  * `yarn add -D @testing-library/react @testing-library/dom @testing-library/jest-dom @testing-library/user-event`
+  * ReferenceError: document is not defined -> vite-config jsdom
+  * setupTest.ts + vite.config.ts
 * eslint
 * prettier
+* cypress
 * i18next
 * husky / lint-staged
 * dependency-cruiser
