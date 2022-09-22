@@ -8,6 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
+    "lint": "eslint --cache '**/*.{js,ts,tsx}' --max-warnings=0",
+    "format": "prettier -w .",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
@@ -27,8 +29,12 @@
     "@vitejs/plugin-react": "^2.0.1",
     "@vitest/ui": "0.23.4",
     "eslint": "8.23.1",
+    "eslint-config-prettier": "8.5.0",
     "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-testing-library": "5.6.4",
     "jsdom": "20.0.0",
+    "prettier": "2.7.1",
     "typescript": "^4.6.4",
     "vite": "^3.0.7",
     "vitest": "^0.23.4"
