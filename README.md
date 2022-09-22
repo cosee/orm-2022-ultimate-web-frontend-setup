@@ -50,6 +50,11 @@ He has been working as a full stack engineer at cosee since 2019.
   - Copy openapi.json to src/backend/openapi.json
   - Add "generate-api" script to package.json
   - yarn generate-api
+- mock-service-worker
+  - `yarn add -D msw`
+  - `npx msw init public`
+  - https://blog.knappi.org/0013-mock-apis/
+  - https://talks.cosee.biz/talk/7de0b6f2-6fd3-4432-9de4-a1c60cc2db4c
 - cypress
 - i18next
 - husky / lint-staged
