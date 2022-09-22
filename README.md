@@ -42,8 +42,14 @@ He has been working as a full stack engineer at cosee since 2019.
   * ReferenceError: document is not defined -> vite-config jsdom
   * setupTest.ts + vite.config.ts
 * eslint + prettier
+  * `npx eslint --init`
+    * Choose "Check Syntax and find Problems"
+    * Type of modules: esm
+    * Framework: react
+    * TypeScript: yes
+    * Browser
   * `yarn add -D eslint prettier eslint-config-prettier eslint-plugin-testing-library @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-react-hooks`
-  * yarn eslint --init
+    
 * cypress
 * i18next
 * husky / lint-staged
