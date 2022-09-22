@@ -1,0 +1,49 @@
+{
+  "openapi": "3.0.3",
+  "info": { "title": "Example", "version": "0.0.1" },
+  "paths": {
+    "/api/encryptPassword": {
+      "post": {
+        "operationId": "encryptPassword",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PasswordEncryptionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "On success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EncryptedPasswordResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EncryptedPasswordResponse": {
+        "required": ["encryptedPassword", "adminPasswordConfigKey"],
+        "type": "object",
+        "properties": {
+          "encryptedPassword": { "type": "string", "nullable": false },
+          "adminPasswordConfigKey": { "type": "string", "nullable": false }
+        }
+      },
+      "PasswordEncryptionRequest": {
+        "required": ["password"],
+        "type": "object",
+        "properties": { "password": { "type": "string", "nullable": false } }
+      }
+    }
+  }
+}

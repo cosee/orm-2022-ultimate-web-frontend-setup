@@ -2,9 +2,15 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import React from "react";
+import { encryptPassword } from "./backend/openapi-client";
 
 function App() {
   const [count, setCount] = useState(0);
+
+  async function encrypt(password: string) {
+    const response = await encryptPassword({ password: password });
+    return response.data.encryptedPassword;
+  }
 
   return (
     <div className="App">
@@ -21,6 +27,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <button onClick={() => encrypt("myPassword")}>count is {count}</button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
