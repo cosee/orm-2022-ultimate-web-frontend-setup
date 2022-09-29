@@ -23,10 +23,9 @@ He has been working as a full stack engineer at cosee since 2019.
 
 # Contents
 
-- TypeScript
-- React / Vue
-- vite (statt webpack)
-- vitest (statt jest)
+- TypeScript / React /vite (instead of webpack)
+  - `yarn create vite --template react`
+- vitest (instead of jest)
   - `yarn add -D vitest`
   - `vite-env.ts` -> `/// <reference types="vitest/globals" />`
   - adjust package.json -> add scripts
@@ -61,6 +60,8 @@ He has been working as a full stack engineer at cosee since 2019.
   - For e2e-testing, I would use another repository, because it also involves
     the backend. You could try e2e-testing with mock-backend, but I haven't done
     this yet.
+  - `@testing-library/cypress` is cool
+  - There is an `eslint-plugin-cypress` as well.
 - i18next
   - Support for translations can be useful, even if you only have a single
     language in the beginning.
